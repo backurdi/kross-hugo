@@ -7,8 +7,6 @@ sections:
 - type: document
   path: exampleSite/data/homepage.yml
   label: Homepage
-- type: heading
-  label: Blog Post
 - type: document
   path: exampleSite/content/blog/_index.md
   label: Blog Page
@@ -20,31 +18,23 @@ sections:
   exclude: _index.md
   templates:
   - post
-- type: heading
-  label: Portfolio
 - type: document
   path: exampleSite/content/portfolio/_index.md
   label: Portfolio Page
 - type: document
   path: exampleSite/data/portfolio.yml
   label: Portfolio Items
-- type: heading
-  label: About
 - type: document
   path: exampleSite/content/about/_index.md
   label: About Page
 - type: document
   path: exampleSite/data/about.yml
   label: About Data
-- type: heading
-  label: Others Page
 - type: directory
   path: exampleSite/content/contact
   label: Contact
   create: none
   match: "*"
-- type: heading
-  label: Configuration
 - type: directory
   path: exampleSite
   label: Configuration
